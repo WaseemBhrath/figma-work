@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    
+}
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: whitesmoke;
+    background-size: cover;
+    justify-content: space-between;
+}
+nav img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.nav_img{
+    padding-left: 80px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.nav_img h4{
+    padding-left: 35px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(27, 27, 94);
+}
+.nav_link{
+    display: flex;
+    align-items: center;
+}
+.nav_link ul li{
+    display: inline;
+    padding-right: 60px;
+
+}
+.nav_link ul li a{
+    color: rgb(27, 27, 94);
+    gap: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*---------------------Hero Section--------------------*/
+.hero{
+    width: 100%;
+    /* background-color: brown; */
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.hero_content{
+    width: 60%;
+    /* background-color: blue; */
+}
+.content1{
+    height: 30px;
+    width: 450px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #E7F6FF;
+    margin-top: 70px;
+    margin-left: 150px;
+    align-items: center;
+    border-radius: 15px;
+    gap: 5px;
+    padding: 5px;
+}
+.content1 button{
+    height: 25px;
+    width: 80px;
+    /* background-color: crimson; */
+    background-color: #094B72;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+}
+.content2{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.content2 h1{
+    font-size: 90px;
+    font-weight: 700px;
+    color: #094B72;
+}
+.content2 p{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4F4F4F;
+    letter-spacing: 0.5px;
+}
+.content2 button{
+    margin-top: 30px;
+    height: 70px;
+    width: 170px;
+    background-color: #094B72;
+    color: white;
+    border-radius: 7px;
+    border: none ;
+}
+.hero_pic{
+    width: 35%;
+}
+.pic_d{
+    margin-left: 05px;
+    position: absolute;
+}
+.pic_d p{
+    height: 70px;
+    width: 250px;
+    background-color: whitesmoke;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 65px;
+    border-radius: 10px;
+    box-shadow: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #33475B;
+    font-weight: 700;
+    box-shadow: 5px 10px 15px #888888;
+}
