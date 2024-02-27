@@ -66,24 +66,24 @@ nav img{
     border-radius: 10%;
 }
 .main_text1{
-    height: 40px;
+     /* height: 40px; */
     width: 500px;
-    background-color: rgb(114, 138, 59);
+    /* background-color: rgb(114, 138, 59); */
+    background-color: #E7F6FF;
     display: flex;
-    justify-content: center;
-    gap: 50px;
-    position: absolute;
-    margin-top: 65px;
-    margin-left: 150px;
+    justify-content: flex-start;
+    align-items: center;
     border-radius: 20px;
-    position: relative;
+    margin-left: 150px;
+    margin-top: 30px;
+    padding: 5px;
 }
 .main_text1 button{
     height: 32px;
     width: 100px;
-    margin-top: 05px;
-    margin-left: 20px;
-    background-color: rgb(42, 42, 241);
+    background-color: #094B72;
+    justify-content: flex-start;
+    margin-left: 05px;
     color: white;
     border-radius: 30px;
     border: none;
@@ -91,7 +91,7 @@ nav img{
 .main_text1 p{
     margin-top: 10px;
     margin-left: 05px;
-    color: rgb(145, 240, 145);
+    color: #193E6C;
 }
 .main_text2{
     margin-top: 60px;
@@ -99,21 +99,22 @@ nav img{
 }
 .main_text2 h1{
     font-size: 70px;
-    color: rgba(1, 1, 17, 0.87);
+    color: #094B72;
     font-weight: bold;
     
 }
 .main_text2 p{
-    font-size: 30px;
-    margin-top: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgba(1, 1, 12, 0.89);
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4F4F4F;
 }
 .main_text2 button{
     margin-top: 50px;
     height: 60px;
     width: 150px;
-    background-color: rgb(42, 42, 241);
+    background-color: #094B72;
     color: white;
     border-radius: 10px;
     border: none;
