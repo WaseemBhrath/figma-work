@@ -1,10 +1,13 @@
 *{
     padding: 0px;
     margin: 0px;
+    /* border: 1px solid black; */
 }
-.header{
-    
+#UNI_PAD{
+    /* margin:  120px;
+    border: 1px solid black; */
 }
+
 nav{
     display: flex;
     height: 80px;
@@ -323,14 +326,29 @@ nav img{
     margin-top: 30px;
     gap: 100px;
 }
+.achi_content2_p1{
+    border-right: 1px solid white;
+    padding-right: 50px;
+    margin: 0px 4px;
+    /* border-width: px; */
+
+}
+.achi_content2_p2{
+    border-right: 1px solid white;
+    padding-right: 50px;
+    margin: 0px 4px;
+}
 .achi_content2_p1 h1{
 font-size: 48px;
 color: #FFFFFF;
+padding-right: 10px;
+
 text-align: center;
 }
 .achi_content2_p1 p{
     font-size: 18px;
     font-weight: 400;
+  
     color: #FFFFFF;
     margin-top: 10px;
 }
